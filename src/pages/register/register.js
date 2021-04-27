@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-// import GlobalStyle from '../theme/globalStyle';
-// import { Button, Button2 } from './components/button';
+import GlobalStyle from './../../theme/globalStyle';
 import {BrowserRouter as Router} from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
@@ -17,8 +16,7 @@ import {
 } from './registerElements';
 import { Button, Button2 } from './../../components/ButtonElements';
 import Register1 from './register1';
-// /home/grace/webdevelopment/frontend/src/components/ButtonElements.js
-// /home/grace/webdevelopment/frontend/src/pages/register/register.js
+
 export default function Register() {
   const [hover, setHover] = useState(false);
 

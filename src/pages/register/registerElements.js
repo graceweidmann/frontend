@@ -51,15 +51,6 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   text-align: center;
 
-  //styleName: Fließtext;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: center;
-
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -75,12 +66,6 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: var(--media-S);
 
-  /* @media screen and (max-width: 768px) {
-    font-size: 30px;
-  }
-  @media screen and (max-width: 480px) { */
-    /* font-size: 22px; */
-  }
 `;
 export const HeroBtnWrapper = styled.div`
   margin-top: 60vh;

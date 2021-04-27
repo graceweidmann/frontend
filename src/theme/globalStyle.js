@@ -19,19 +19,16 @@ const GlobalStyle = createGlobalStyle`
   --dynamic-font-size: calc(1.8em + 1vw);
   --dynamic-line-height: calc(1em + .4vw);
   --media-S: 600px;
-  --color-BG1: #FFFFFF;
-  --color-BG2: #1D2A73;
-  --color-BG3: #F5EBDD;
-  --color-BG4: linear-gradient(261.83deg, #FFB7D5 22.27%, rgba(255, 255, 255, 0) 89.6%),
+  --color1: #FFFFFF;
+  --color2: #1D2A73;
+  --color3: #F5EBDD;
+  --color4: linear-gradient(261.83deg, #FFB7D5 22.27%, rgba(255, 255, 255, 0) 89.6%),
 linear-gradient(0deg, #FFBE21, #FFBE21);
-  --color-BG5: linear-gradient(236.96deg, #FFB7D5 30.3%, rgba(255, 255, 255, 0) 101.13%),
+  --color5: linear-gradient(236.96deg, #FFB7D5 30.3%, rgba(255, 255, 255, 0) 101.13%),
 linear-gradient(0deg, #FFBE21, #FFBE21);
---color-BG6: #E5E5E5;
---color-BG7: #EDD4D0;
---color-BG8: #3EC1F3;
---primary-color-button: var(--color-BG2);
-  /* --primary-color-button-hover: lighten(var(--primary-color-button),15%); */
---primary-color-button-text: var(--color-BG1);
+--color6: #E5E5E5;
+--color7: #EDD4D0;
+--color8: #3EC1F3;
 
 /* *,
 *::after,

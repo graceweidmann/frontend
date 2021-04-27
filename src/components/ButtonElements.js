@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? 'var(--color-BG2)'  : 'var(--color-BG1)')};
+  background: ${({ primary }) => (primary ? 'var(--color2)'  : 'var(--color1)')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-  color: ${({ primaryBtnTextColor }) => (primaryBtnTextColor ? 'var(--color-BG1)' : 'var(--color-BG2)')};
+  color: ${({ primaryBtnTextColor }) => (primaryBtnTextColor ? 'var(--color1)' : 'var(--color2)')};
   font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
   outline: none;
   text-decoration: none;
