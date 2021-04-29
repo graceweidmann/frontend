@@ -3,11 +3,9 @@
 // @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 // @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 // @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
-
 import { createGlobalStyle } from 'styled-components';
- 
-const GlobalStyle = createGlobalStyle`
 
+const GlobalStyle = createGlobalStyle`
   
 
 /* Variables */
@@ -29,6 +27,7 @@ linear-gradient(0deg, #FFBE21, #FFBE21);
 --color6: #E5E5E5;
 --color7: #EDD4D0;
 --color8: #3EC1F3;
+color: var( --color2);
 
 /* *,
 *::after,
@@ -41,27 +40,49 @@ linear-gradient(0deg, #FFBE21, #FFBE21);
 }
 
 html { 
-  font-size: 62.5%;
+ 
 }
 
 
   
   body {
     font-family: Montserrat;
-    font-size: var(--dynamic-font-size);
+    font-size: 62.5%;
     font-style: normal;
     letter-spacing: 0em;
     text-align: center;
     padding: 0;
-    line-height: var(--dynamic-line-height);
     margin: 0;
     background: white;
     box-sizing: border-box;
+    color: var(--color2);
+  }
+  
+
+  h1 {
+    /* font-size: calc(1.8em + 1vw) !important;
+    line-height: calc(1em + 1vw) !important; */
+    //styleName: H1;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
   }
 
   h2 {
-    font-size: calc(1.8em + 1vw) !important;
+    /* font-size: calc(1.8em + 1vw) !important;
     line-height: calc(1em + 1vw) !important;
+   */
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px
+letter-spacing: 0em;
+text-align: left;
+
   }
 
   
@@ -76,5 +97,4 @@ text-align: center;
 max-width: var(--media-S);
 }
 `;
- 
 export default GlobalStyle;
