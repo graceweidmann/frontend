@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 import defaultHeroBg from "../../images/heroBg.png";
 
 export const HeroContainer = styled.div`
@@ -50,7 +49,6 @@ export const HeroH1 = styled.h1`
   color: var(--primaryBtnTextColor);
   font-size: 48px;
   text-align: center;
-
 
   @media screen and (max-width: 768px) {
     font-size: 40px;

@@ -1,19 +1,13 @@
 import styled from 'styled-components';
-import GlobalStyle from './../../theme/globalStyle';
-
-import {BrowserRouter as Router} from 'react-router-dom'
-import React, { useState } from 'react';
+import React from 'react';
 
 import {
   HeroContainer,
-  HeroBg,
-  HeroBgImg,
   HeroP,
-  HeroH1,
   HeroBtnWrapper,
   HeroContent,
 } from './registerElements';
-import { Button, Button2 } from '../../components/ButtonElements';
+import { Button } from '../../components/ButtonElements';
 
 
 const CenterP = styled(HeroP) `

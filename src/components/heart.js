@@ -1,5 +1,7 @@
 import React from 'react';
-import { ReactComponent as Heart } from '../../images/heart.svg';
+
+
+import { ReactComponent as Heart } from '../images/heart.svg';
 
 const heart = () => (
   <div>
@@ -7,4 +9,3 @@ const heart = () => (
   </div>
 );
 
-export default heart;

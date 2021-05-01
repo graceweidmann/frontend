@@ -2,14 +2,14 @@ export const Home = {
 img: require ('../../images/home.svg'),
 alt: 'home',
 label: 'HOME',
-link: 'Home',
+link: 'dashboard',
 };
 
 export const Browse = {
 img: require ('../../images/browse.svg'), 
 alt: 'weights',
 label: 'BROWSE',
-link: 'Browse',
+link: 'browseWorkouts',
 };
 
 export const Profile = {

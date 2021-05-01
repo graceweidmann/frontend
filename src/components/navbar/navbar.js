@@ -1,16 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
 import { 
-  Icon,
-  Navbar, 
-  NavLink
+  Navbar
 } from './navbarElements';
 import {
   Home, 
   Browse, 
   Profile
-} from './navItems';
+} from './navData';
 import NavbarItems from './NavbarItems';
 
 export default function Navigation () {
@@ -21,7 +17,7 @@ export default function Navigation () {
     <NavbarItems {...Home}  />
     <NavbarItems {...Browse} />
     <NavbarItems {...Profile} />
-
+{}
   </Navbar>
 );
 }

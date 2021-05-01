@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
   font-family: Montserrat;
   --font-weight-heavy: 900;
   --primary-color-grey: 31, 58, 80;
- 
   --dynamic-font-size: calc(1.8em + 1vw);
   --dynamic-line-height: calc(1em + .4vw);
   --media-S: 600px;
@@ -24,11 +23,13 @@ const GlobalStyle = createGlobalStyle`
 linear-gradient(0deg, #FFBE21, #FFBE21);
   --color5: linear-gradient(236.96deg, #FFB7D5 30.3%, rgba(255, 255, 255, 0) 101.13%),
 linear-gradient(0deg, #FFBE21, #FFBE21);
---color6: #E5E5E5;
---color7: #EDD4D0;
---color8: #3EC1F3;
-color: var( --color2);
-
+  --color6: #E5E5E5;
+  --color7: #EDD4D0;
+  --color8: #3EC1F3;
+  color: var( --color2);
+  --card-height: 30vh;
+  --page-padding: 1.7em;
+}
 /* *,
 *::after,
 *::before {
@@ -40,9 +41,6 @@ color: var( --color2);
 }
 
 html { 
- 
-}
-
 
   
   body {
@@ -56,45 +54,7 @@ html {
     background: white;
     box-sizing: border-box;
     color: var(--color2);
-  }
   
-
-  h1 {
-    /* font-size: calc(1.8em + 1vw) !important;
-    line-height: calc(1em + 1vw) !important; */
-    //styleName: H1;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-
   }
-
-  h2 {
-    /* font-size: calc(1.8em + 1vw) !important;
-    line-height: calc(1em + 1vw) !important;
-   */
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 29px
-letter-spacing: 0em;
-text-align: left;
-
-  }
-
-  
-p {
-//styleName: Fließtext;
-font-size: 1em;
-font-style: normal;
-font-weight: 400;
-line-height: 1em;
-letter-spacing: 0em;
-text-align: center;
-max-width: var(--media-S);
-}
 `;
 export default GlobalStyle;
